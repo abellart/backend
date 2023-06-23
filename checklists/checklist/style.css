@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 80px;
+    padding: 0 20px;
+    border-bottom: 2px solid #ebebeb;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+header a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+main {
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.avtform {
+    max-width: 20%;
+    margin: auto;
+}
+
+.avtbutton {
+    margin-top: 20px;
+    padding: 10px 10px;
+    font-weight: bold;
+    border: none;
+}
+
+.avtbutton:hover {
+    cursor: pointer;
+}
+
+.checklist__name{
+    background-color: #ebebeb;
+    padding: 20px 10px;
+    margin: 5px 0;
+}
+
+.check__header {
+    background-color: #ebebeb;
+    padding: 20px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.check__list {
+    padding: 20px;
+    border: 1px solid #ebebeb;
+    display: none;
+}
+
+.check__list.show{
+    display: block;
+}
+
+.check__list p {
+    padding: 5px 0;
+}
+
+.checklist__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.show-btn {
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.show-btn:hover {
+    cursor: pointer;
+}
